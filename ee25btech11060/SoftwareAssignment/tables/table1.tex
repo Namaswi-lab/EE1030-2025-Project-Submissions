@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage{float}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{table}[H]
+\centering
+\caption{Frobenius Norm Error for Different Images and $k$ Values}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Image} & \textbf{$k=5$} & \textbf{$k=20$} & \textbf{$k=50$} & \textbf{$k=100$} \\
+\hline
+\textbf{greyscale\_ascii (1024×1024)} & 32067.598046 & 38754.743439 & 21667.885490 & 2635.680646 \\
+\hline
+\textbf{globe\_ascii (879×840)} & 35260.732064 & 26212.870563 & 25355.144323 & 28012.020277 \\
+\hline
+\textbf{einstein\_ascii (182×186)} & 8702.980822 & 2303.426310 & 1022.630793 & 272.076524 \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
+
